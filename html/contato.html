@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../css/style-contato.css"/>
+  </head>
+  <body class="w3-light-grey">
+
+    <div class="topnav" id="myTopnav">
+      <a href="../html/index.html">
+      <img id="menu" class="menu-img" src="../img/logo/logotipo.svg">		
+      </a>
+      <a id="menu" href="../html/index.html" class="w3-bar-item w3-button">Inicio</a>
+      <a id="menu" href="../html/sobre.html" class="w3-bar-item w3-button ">Sobre-nós</a>
+      <a id="menu" href="../html/servico.html" class="w3-bar-item w3-button">Serviço</a>
+      <a id="menu" href="../html/contato.html" class="w3-bar-item w3-button active">Contato</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  <div class="container">
+    <div id="topico">
+      <h2>Contate-nos</h2>
+      <p>Entre em contato conosco</p>
+    </div>
+    <div class="row">
+      <div class="image">
+        <img src="../img/contato/salao.jpg">
+      </div>
+      <div id="column" class="w3-col l4">
+        <form id="formContato">
+
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Informe seu email..">
+         
+          <label for="estado">Estado</label>
+          <select id="estado" name="estado">
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapa">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="ceara">Ceará</option>
+            <option value="distritofederal">Distrito Federal</option>
+            <option value="espiritosanto">Espírito Santos</option>
+            <option value="goais">Goiás</option>
+            <option value="maranhao">Maranhão</option>
+            <option value="matogrosso">Mato Grosso</option>
+            <option value="matogrossosul">Mato Grosso do Sul</option>
+            <option value="para">Pará</option>
+            <option value="paraiba">Paraíba</option>
+            <option value="parana">Paraná</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="piaui">Piauí</option>
+            <option value="riodejaneiro">Rio de Janeiro</option>
+            <option value="riograndedonorte">Rio Grande do Norte</option>
+            <option value="riograndedosul">Rio Grande do Sul</option>
+            <option value="rondonia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="santacatarina">Santa Catarina</option>
+            <option value="saopaulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+          </select>
+
+          <label for="mensagem">Sua mensagem</label>
+          <textarea  id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.."></textarea>
+          
+          <input type="submit" value="Enviar">
+        
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <footer id="rodape" class="w3-container w3-dark-grey">
+    <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up"></i> Ir para o Topo</a>
+    <p class="rodape-copyrigth">© 2020 - Instituto Beleza Julye Roberts</p>
+  </footer>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="../js/contato-envio.js"></script>
+  <script type="text/javascript" src="../js/menu-responsive.js"></script>
+
+  </body>
+</html>
